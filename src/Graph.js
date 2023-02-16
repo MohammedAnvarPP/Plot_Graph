@@ -11,12 +11,13 @@ import {
   Legend,
 } from "recharts";
 
+
 const Graph = ({ xData, yData }) => {
   const data = xData.map((x, index) => ({ x, y: yData[index] }));
 
   return (
     <>
-      <h3>The X-value is:{xData}</h3>
+      <h3>The X-value8888 is:{xData}</h3>
       <h3>The Y-value is:{yData}</h3>
       <LineChart
         width={500}
