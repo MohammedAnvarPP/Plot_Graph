@@ -33,7 +33,7 @@ const InputForm = () => {
         />
         <button type="submit">Submit</button>
       </form>
-<p>AnvarEdited</p>
+<p>Yunus Edited fh</p>
       <Graph xData={xData} yData={yData} />
     </>
   );
